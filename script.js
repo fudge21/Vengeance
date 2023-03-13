@@ -175,6 +175,10 @@ var tic = document.createElement("button")
 tic.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@2.0.0/other/tic.min.js';document.body.appendChild(script);avoclosedevtools()}())")
 tic.setAttribute("class", "obtn")
 tic.innerText = "Ultimate Tic-Tac-Toe"
+var cb = document.createElement("button")
+cb.setAttribute("onclick", "javascript:(function () {var script=document.createElement('script');script.src='https://raw.githubusercontent.com/Altreus/colourblind/master/bookmarklet.js';document.body.appendChild(script);}())")
+cb.setAttribute("class", "obtn")
+cb.innerText = "color blind"
 var git = document.createElement("button")
 git.setAttribute("class", "obtn")
 git.innerHTML = "<a href='https://github.com/Browncha023/Vengeance' target='_blank' style='text-decoration:none; color:#aaa;'>Github <i class='fa fa-github'></i></a>"
