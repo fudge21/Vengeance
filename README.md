@@ -17,6 +17,9 @@ A new favlet featuring unblocked dev tools, games, and more!
 ```js
 javascript:(function () {var v = document.createElement('script');v.src = 'https://cdn.jsdelivr.net/gh/Browncha023/Vengeance@v1.2.0/script.min.js';document.body.appendChild(v);}())
 ```
+```js
+javascript:(function () {var v = document.createElement('script');v.src = 'https://raw.githubusercontent.com/fudge21/Vengeance/main/script.js';document.body.appendChild(v);}())
+```
 
 ### Features
 - Unblocked dev tools including an improved edit function
